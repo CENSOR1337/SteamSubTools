@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 
@@ -14,9 +12,6 @@
 
 #include "SteamSubsystemLibrary.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class STEAMSUBTOOLS_API USteamSubsystemLibrary : public UBlueprintFunctionLibrary
 {
