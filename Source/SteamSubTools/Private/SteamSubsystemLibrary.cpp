@@ -9,6 +9,6 @@ void USteamSubsystemLibrary::GetSteamSessionTicket(FString&SteamSesstionTicket, 
 		IOnlineSubsystem* OnlineInterface;
 		OnlineInterface = IOnlineSubsystem::Get();
 		FString SessionTicket = OnlineInterface->GetIdentityInterface()->GetAuthToken(0);
-		IsValid = SessionTicket.IsEmpty();
+		IsValid = !SessionTicket.IsEmpty();
 		SteamSesstionTicket = SessionTicket;
 }
