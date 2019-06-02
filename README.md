@@ -7,6 +7,6 @@ SteamSubTools is a plugin library function for Unreal Engine 4
 - [Get Steam Session Ticket](https://github.com/censor31337/SteamSubTools#GetSteamSessionTicket)
 
 ## GetSteamSessionTicket  
-**Remarks** : Get Steam Session Ticket  
+**Remarks** : Get Steam Session Ticket from player local.
 **Input** : None (PureCall)  
 **Output** : (String - Steam Session Ticket), (Bool - IsValid)  
